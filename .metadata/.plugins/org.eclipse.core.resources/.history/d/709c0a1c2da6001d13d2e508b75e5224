@@ -1,0 +1,15 @@
+package br.com.zazix.model;
+
+import java.math.BigDecimal;
+
+public class Cambio {
+	
+	private Long id;
+	private String from;
+	private String to;
+	private BigDecimal conversionFactor;
+	private BigDecimal convertedValue;
+	
+	
+
+}

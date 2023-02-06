@@ -1,0 +1,5 @@
+package br.com.zazix.repositories;
+
+public class CambioRepository {
+
+}

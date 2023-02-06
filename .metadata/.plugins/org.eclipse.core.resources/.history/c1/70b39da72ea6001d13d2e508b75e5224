@@ -1,0 +1,16 @@
+package br.com.zazix.controllers;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import br.com.zazix.model.Cambio;
+
+@RestController
+@RequestMapping("cambio-service")
+public class CambioController {
+	
+	public Cambio getCambio() {
+		return new Cambio();
+	}
+
+}
