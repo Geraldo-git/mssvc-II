@@ -855,3 +855,18 @@ java.util.concurrent.TimeoutException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-02-07 15:04:58.646
+!MESSAGE [Info]	ESLint server running in node v18.12.1
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-02-07 15:04:58.778
+!MESSAGE [Info]	No ES Libary found for file: file:///C:/ws-sts/msv/microsserv/book-service/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-02-07 15:23:49.008
+!MESSAGE [Info]	No ES Libary found for file: file:///C:/ws-sts/msv/microsserv/cambio-service/src/main/resources/application.yml
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-02-07 18:39:38.474
+!MESSAGE [Info]	ESLint server running in node v18.12.1
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-02-07 18:39:38.600
+!MESSAGE [Info]	No ES Libary found for file: file:///C:/ws-sts/msv/microsserv/book-service/src/main/resources/application.yml

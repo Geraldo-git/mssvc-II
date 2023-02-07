@@ -12,6 +12,8 @@ import javax.persistence.Id;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+import org.springframework.data.annotation.Transient;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity(name = "book")
@@ -32,9 +34,9 @@ public class Book implements Serializable{
 	@Column(nullable = false, length = 250)
 	private String title;
 	
-	
+	@Transient
 	private String currency;
-	
+	@Transient
 	private String environment;
 	
 	
