@@ -8,7 +8,7 @@ import br.com.zazix.response.Cambio;
 
 
 
-@FeignClient(name = "cambio-service", url = "localhost:8000")
+@FeignClient(name = "cambio-service") //Faz o load balancing -- o balancer fica dentro do microsserviço
 public interface CambioProxy {
 
 	
