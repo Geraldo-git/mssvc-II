@@ -25,7 +25,7 @@ public class BookController {
 	@GetMapping(value = "/{id}/{currency}")
 	public Book findBook(@PathVariable("id") Long id, @PathVariable("currency") String currency) {
 
-		var book = repository.getById(id);
+		var book = repository.getReferenceById(id);
 		if (book == null)
 			throw new RuntimeException("Book not found!");
 
