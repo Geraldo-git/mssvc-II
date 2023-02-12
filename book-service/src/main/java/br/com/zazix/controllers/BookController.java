@@ -10,7 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.zazix.model.Book;
 import br.com.zazix.proxy.CambioProxy;
 import br.com.zazix.repositories.BookRepository;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 
+@Tag(name = "Book Endpoint")
 @RestController
 @RequestMapping("book-service")
 public class BookController {
@@ -22,6 +25,7 @@ public class BookController {
 	@Autowired
 	CambioProxy proxy;
 
+	@Operation(summary = "Find a specific book by your id")
 	@GetMapping(value = "/{id}/{currency}")
 	public Book findBook(@PathVariable("id") Long id, @PathVariable("currency") String currency) {
 
